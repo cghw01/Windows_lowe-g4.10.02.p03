@@ -1,0 +1,39 @@
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR failed with the following output:
+Change Dir: C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_1f8db.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 28/01/2019 10:10:28.
+Project "C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\cmTC_1f8db.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1f8db.dir\Debug\".
+  Creating directory "C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1f8db.dir\Debug\cmTC_1f8db.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1f8db.dir\Debug\cmTC_1f8db.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I\include /Zi /nologo /W1 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _CONSOLE /D _WIN32 /D WIN32 /D OS /D XPNET /D _CRT_SECURE_NO_DEPRECATE /D G4USE_STD11 /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1f8db.dir\Debug\\" /Fd"cmTC_1f8db.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue  -Zm200 "C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\src.cxx"
+  src.cxx
+C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\src.cxx(1): error C2065: '__deprecated__': undeclared identifier [C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\cmTC_1f8db.vcxproj]
+C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\src.cxx(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\cmTC_1f8db.vcxproj]
+C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\src.cxx(1): error C2448: '__attribute__': function-style initializer appears to be a function definition [C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\cmTC_1f8db.vcxproj]
+Done Building Project "C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\cmTC_1f8db.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\cmTC_1f8db.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\src.cxx(1): error C2065: '__deprecated__': undeclared identifier [C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\cmTC_1f8db.vcxproj]
+  C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\src.cxx(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\cmTC_1f8db.vcxproj]
+  C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\src.cxx(1): error C2448: '__attribute__': function-style initializer appears to be a function definition [C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\CMakeTmp\cmTC_1f8db.vcxproj]
+
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:00.43
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

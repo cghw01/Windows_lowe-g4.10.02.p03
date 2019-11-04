@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4LowEnergyBremsstrahlung.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDBremsstrahlungCrossSectionHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDBremsstrahlungParameters.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDCompositeEMDataSet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDEMDataSet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDGenerator2BN.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDGenerator2BS.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDLinInterpolation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDLinLogLogInterpolation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDLogLogInterpolation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDModifiedTsai.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDSemiLogInterpolation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDShellEMDataSet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDVBremAngularDistribution.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDVCrossSectionHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDVeLowEnergyLoss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDeBremsstrahlungSpectrum.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4eLowEnergyLoss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsAtomicDeexcitation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsDI.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsDIMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsIonBoundary.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsIonBoundaryMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsIonKill.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsKill.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsKillMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsLowEnIoniMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsLowEnergyIonisation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsPhysicsList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsSSMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsSingleScattering.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsTransportation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsUserTrackInfo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicseBoundary.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\G4GeneralParticleSourceMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\G4VParticleChange.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4LowEnergyBremsstrahlung.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDBremsstrahlungCrossSectionHandler.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDBremsstrahlungParameters.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDCompositeEMDataSet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDEMDataSet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDGenerator2BN.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDGenerator2BS.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDLinInterpolation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDLinLogLogInterpolation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDLogLogInterpolation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDModifiedTsai.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDSemiLogInterpolation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDShellEMDataSet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDVBremAngularDistribution.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDVCrossSectionHandler.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDVDataSetAlgorithm.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDVEMDataSet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDVEnergySpectrum.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDVeLowEnergyLoss.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDeBremsstrahlungSpectrum.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4eLowEnergyLoss.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsAtomicDeexcitation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsDI.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsDIMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsIonBoundary.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsIonBoundaryMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsIonKill.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsKill.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsKillMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsLowEnIoniMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsLowEnergyIonisation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsPhysicsList.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsSSMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsSingleScattering.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsTransportation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsUnits.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsUserTrackInfo.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicseBoundary.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DAA6C38F-33A1-3870-9493-BD9786D5F7CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{29B417AD-7C1F-3150-88E7-9B87D18F8371}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

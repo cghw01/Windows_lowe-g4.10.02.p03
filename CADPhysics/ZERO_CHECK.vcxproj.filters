@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\7a59afb830e5007eacb7d1695d495c23\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{533D021A-D6B3-36FE-BE3F-0A269D125B89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

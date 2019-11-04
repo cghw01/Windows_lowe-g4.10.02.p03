@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1965E96D-CDB5-345F-96D4-58FC457DD470}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>CADPhysics</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CADPhysics.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CADPhysics</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CADPhysics.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CADPhysics</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CADPhysics.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CADPhysics</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CADPhysics.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CADPhysics</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SEM_BASE)\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include;C:\Users\chris\Geant4\geant4_10_02_p03-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4LIB_BUILD_DLL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4LIB_BUILD_DLL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include;C:\Users\chris\Geant4\geant4_10_02_p03-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include;C:\Users\chris\Geant4\geant4_10_02_p03-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SEM_BASE)\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include;C:\Users\chris\Geant4\geant4_10_02_p03-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;NDEBUG;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4LIB_BUILD_DLL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;NDEBUG;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4LIB_BUILD_DLL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include;C:\Users\chris\Geant4\geant4_10_02_p03-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include;C:\Users\chris\Geant4\geant4_10_02_p03-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SEM_BASE)\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include;C:\Users\chris\Geant4\geant4_10_02_p03-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;NDEBUG;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4LIB_BUILD_DLL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;NDEBUG;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4LIB_BUILD_DLL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include;C:\Users\chris\Geant4\geant4_10_02_p03-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include;C:\Users\chris\Geant4\geant4_10_02_p03-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SEM_BASE)\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include;C:\Users\chris\Geant4\geant4_10_02_p03-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;NDEBUG;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4LIB_BUILD_DLL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;NDEBUG;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4LIB_BUILD_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include;C:\Users\chris\Geant4\geant4_10_02_p03-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include;C:\Users\chris\Geant4\geant4_10_02_p03-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics -BC:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics --check-stamp-file C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.13\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\exportheader.cmake.in;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4Config.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4ConfigVersion.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4LibraryDepends-release.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4LibraryDepends.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Modules\IntelCompileFeatures.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\UseGeant4.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeCCompiler.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeSystem.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\feature_tests.c;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\feature_tests.cxx;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeLists.txt;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics -BC:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics --check-stamp-file C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.13\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\exportheader.cmake.in;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4Config.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4ConfigVersion.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4LibraryDepends-release.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4LibraryDepends.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Modules\IntelCompileFeatures.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\UseGeant4.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeCCompiler.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeSystem.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\feature_tests.c;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\feature_tests.cxx;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeLists.txt;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics -BC:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics --check-stamp-file C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.13\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\exportheader.cmake.in;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4Config.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4ConfigVersion.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4LibraryDepends-release.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4LibraryDepends.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Modules\IntelCompileFeatures.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\UseGeant4.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeCCompiler.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeSystem.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\feature_tests.c;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\feature_tests.cxx;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeLists.txt;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics -BC:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics --check-stamp-file C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/chris/Geant4/lowe-g4_10.02.p03/lowe-g4_10.02.p03/CADPhysics/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.13\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\exportheader.cmake.in;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4Config.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4ConfigVersion.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4LibraryDepends-release.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Geant4LibraryDepends.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\Modules\IntelCompileFeatures.cmake;C:\Users\chris\Geant4\geant4_10_02_p03-install\lib\Geant4-10.2.3\UseGeant4.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeCCompiler.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\3.13.2\CMakeSystem.cmake;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\feature_tests.c;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\feature_tests.cxx;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeLists.txt;C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4LowEnergyBremsstrahlung.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDBremsstrahlungCrossSectionHandler.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDBremsstrahlungParameters.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDCompositeEMDataSet.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDEMDataSet.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDGenerator2BN.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDGenerator2BS.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDLinInterpolation.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDLinLogLogInterpolation.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDLogLogInterpolation.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDModifiedTsai.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDSemiLogInterpolation.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDShellEMDataSet.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDVBremAngularDistribution.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDVCrossSectionHandler.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDVeLowEnergyLoss.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4RDeBremsstrahlungSpectrum.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\src\G4eLowEnergyLoss.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsAtomicDeexcitation.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsDI.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsDIMessenger.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsIonBoundary.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsIonBoundaryMessenger.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsIonKill.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsKill.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsKillMessenger.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsLowEnIoniMessenger.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsLowEnergyIonisation.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsPhysicsList.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsSSMessenger.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsSingleScattering.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsTransportation.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicsUserTrackInfo.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\CADPhysicseBoundary.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\G4GeneralParticleSourceMessenger.cc" />
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\src\G4VParticleChange.cc" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4LowEnergyBremsstrahlung.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDBremsstrahlungCrossSectionHandler.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDBremsstrahlungParameters.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDCompositeEMDataSet.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDEMDataSet.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDGenerator2BN.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDGenerator2BS.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDLinInterpolation.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDLinLogLogInterpolation.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDLogLogInterpolation.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDModifiedTsai.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDSemiLogInterpolation.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDShellEMDataSet.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDVBremAngularDistribution.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDVCrossSectionHandler.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDVDataSetAlgorithm.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDVEMDataSet.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDVEnergySpectrum.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDVeLowEnergyLoss.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4RDeBremsstrahlungSpectrum.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\G4\include\G4eLowEnergyLoss.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsAtomicDeexcitation.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsDI.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsDIMessenger.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsIonBoundary.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsIonBoundaryMessenger.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsIonKill.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsKill.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsKillMessenger.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsLowEnIoniMessenger.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsLowEnergyIonisation.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsPhysicsList.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsSSMessenger.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsSingleScattering.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsTransportation.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsUnits.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicsUserTrackInfo.hh" />
+    <ClInclude Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\include\CADPhysicseBoundary.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\CADPhysics\ZERO_CHECK.vcxproj">
+      <Project>{B6690214-7A61-338A-BBE7-D2611F9BEFEA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

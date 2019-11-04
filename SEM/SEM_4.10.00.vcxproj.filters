@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\SEM_4.10.00.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\G4GDMLReadMaterials.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMBulkDet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMBulkDetHit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMBulkDetMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMCounter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMCounterHit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMCounterMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMCountsPerCategory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMDetectorConstruction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMDetectorConstructionMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMEventAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMEventActionMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMGDMLReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMGeneralDetector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMGeneralDetectorMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMPlane.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMPlaneHit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMPlaneMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMPrimaryGeneratorAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMPrimaryGeneratorActionMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMRunAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMScanMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMSteppingAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMSteppingActionMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMSteppingVerbose.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMTrackingAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMTrajectory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMVRML2File.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMVRML2FileSceneHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\src\SEMVRML2FileViewer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chris\Geant4\lowe-g4_10.02.p03\lowe-g4_10.02.p03\SEM\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B2819241-E9CC-37F9-8B9D-B6B84019FB57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

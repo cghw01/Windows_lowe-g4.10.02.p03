@@ -1,0 +1,133 @@
+
+*************************************************************
+ Geant4 version Name: geant4-10-02-patch-03    (27-January-2017)
+                      Copyright : Geant4 Collaboration
+                      Reference : NIM A 506 (2003), 250-303
+                            WWW : http://cern.ch/geant4
+*************************************************************
+
+GDML file name = YieldCurveFilm.gdml
+G4GDML: Reading 'YieldCurveFilm.gdml'...
+G4GDML: Reading definitions...
+G4GDML: Reading materials...
+G4GDML: Reading solids...
+G4GDML: Reading structure...
+G4GDML: Reading module 'SampleWithFilm.gdml'...
+G4GDML: Reading definitions...
+G4GDML: Reading materials...
+G4Material WARNING: duplicate name of material Galactic
+G4Material WARNING: duplicate name of material BlackHole
+G4Material WARNING: duplicate name of material Silver
+G4Material WARNING: duplicate name of material Aluminum
+G4Material WARNING: duplicate name of material Oxygen
+G4Material WARNING: duplicate name of material Gold
+G4Material WARNING: duplicate name of material GalacticGold
+G4Material WARNING: duplicate name of material Epoxy
+G4Material WARNING: duplicate name of material BioGold
+G4Material WARNING: duplicate name of material Diamond
+G4Material WARNING: duplicate name of material GlassyCarbon
+G4Material WARNING: duplicate name of material Graphite
+G4Material WARNING: duplicate name of material Chromium
+G4Material WARNING: duplicate name of material Copper
+G4Material WARNING: duplicate name of material Germanium
+G4Material WARNING: duplicate name of material Iron
+G4Material WARNING: duplicate name of material Molybdenum
+G4Material WARNING: duplicate name of material Hydrogengas
+G4Material WARNING: duplicate name of material Nickel
+G4Material WARNING: duplicate name of material Nitrogen
+G4Material WARNING: duplicate name of material Platinum
+G4Material WARNING: duplicate name of material Silicon
+G4Material WARNING: duplicate name of material Tin
+G4Material WARNING: duplicate name of material Tantalum
+G4Material WARNING: duplicate name of material Titanium
+G4Material WARNING: duplicate name of material Tungsten
+G4Material WARNING: duplicate name of material Backgroundgas
+G4Material WARNING: duplicate name of material Alumina
+G4Material WARNING: duplicate name of material AluminumArsenide
+G4Material WARNING: duplicate name of material AluminumNitride
+G4Material WARNING: duplicate name of material GalliumArsenide
+G4Material WARNING: duplicate name of material GalliumNitride
+G4Material WARNING: duplicate name of material IndiumArsenide
+G4Material WARNING: duplicate name of material MagnesiumOxide
+G4Material WARNING: duplicate name of material NickelSilicide
+G4Material WARNING: duplicate name of material PMMA
+G4Material WARNING: duplicate name of material Polyimide
+G4Material WARNING: duplicate name of material SiliconCarbide
+G4Material WARNING: duplicate name of material lowdensSiC
+G4Material WARNING: duplicate name of material SiliconNitride
+G4Material WARNING: duplicate name of material Silicon7Nitride7amorphous
+G4Material WARNING: duplicate name of material Silicon7Nitride7homogeneous
+G4Material WARNING: duplicate name of material Silicon7Nitride7cluster
+G4Material WARNING: duplicate name of material SiliconOxide
+G4Material WARNING: duplicate name of material lowk
+G4Material WARNING: duplicate name of material lowk2
+G4Material WARNING: duplicate name of material PdopedSiliconOxide
+G4Material WARNING: duplicate name of material TantalumNitride
+G4Material WARNING: duplicate name of material TitaniumOxide
+G4Material WARNING: duplicate name of material Water
+G4Material WARNING: duplicate name of material Watervapor
+G4GDML: Reading solids...
+G4GDML: Reading structure...
+G4GDML: Reading setup...
+G4GDML: Reading module 'SampleWithFilm.gdml' done!
+G4GDML: Reading GDML extension...
+SEMGDML: Reading detectors ...
+SEMGDML: Reading detector...
+SEMGDML: Reading detector...
+SEMGDML: Reading detector...
+SEMGDML: Reading detector...
+G4GDML: Reading setup...
+G4GDML: Reading 'YieldCurveFilm.gdml' done!
+Stripping off GDML names of materials, solids and volumes ...
+Calling CADPhysicsPhysicsList. Version December 2007.
+- Includes Rutherford scattering model above 30keV. September 2010.
+
+The geometrical trees defined are : 
+
+LogWorld_PV[0] LogWorld 1 Galactic Atom density = 0.0596848 1/cm3 
+  samplecontainer_PV[0] samplecontainer 4 Galactic Atom density = 0.0596848 1/cm3 
+    LogSample_PV[0] LogSample 0 BlackHole Atom density = 0.0596848 1/cm3  /Sample
+    LogFilm_PV[0] LogFilm 0 BlackHole Atom density = 0.0596848 1/cm3  /Film
+    LogPlaneR_PV[0] LogPlaneR 0 Galactic Atom density = 0.0596848 1/cm3  /PlaneR
+    LogPlaneT_PV[0] LogPlaneT 0 Galactic Atom density = 0.0596848 1/cm3  /PlaneT
+ G4Transportation constructor> set fShortStepOptimisation to false
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Visualization Manager initialising...
+Registering graphics systems...
+
+You have successfully registered the following graphics systems.
+Current available graphics systems are:
+ASCIITree (ATree)
+DAWNFILE (DAWNFILE)
+RayTracer (RayTracer)
+VRML1FILE (VRML1FILE)
+VRML2FILE (VRML2FILE)
+
+Registering model factories...
+
+You have successfully registered the following model factories.
+Registered model factories:
+  generic
+  drawByCharge
+  drawByParticleID
+  drawByOriginVolume
+  drawByAttribute
+
+Registered filter factories:
+  chargeFilter
+  particleFilter
+  originVolumeFilter
+  attributeFilter
+
+You have successfully registered the following user vis actions.
+Run Duration User Vis Actions: none
+End of Event User Vis Actions: none
+End of Run User Vis Actions: none
+
+Some /vis commands (optionally) take a string to specify colour.
+Available colours:
+  black, blue, brown, cyan, gray, green, grey, magenta, red, white, yellow
+
+Random number generator seeded with 1571484647
+Graphics systems deleted.
+Visualization Manager deleting...
